@@ -1,0 +1,5 @@
+x = float(input("Guess a number 1 through 100. "))
+if x==21 or x==12:
+    print("correct")
+elif (x > 21 or x < 21):
+    print("incorrect")
